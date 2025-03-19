@@ -1,0 +1,142 @@
+Mar 17, 2025 8:21:04 AM Tests.Connectivity_WiFi_Linear startScreenRecording
+INFO: Screen recording started: connectivity_test_20250317_082104.mp4
+Mar 17, 2025 8:21:04 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: === Wi-Fi Connectivity Test Started ===
+Mar 17, 2025 8:21:04 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: The Wi-Fi is connected. Let's start the test!
+Mar 17, 2025 8:21:04 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: 
+=== Test Step 1: Disconnect Wi-Fi for 15 seconds ===
+Mar 17, 2025 8:21:04 AM Tests.Connectivity_WiFi_Linear disconnectWifi
+INFO: Wi-Fi disabled via adb command.
+Mar 17, 2025 8:21:05 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+WARNING: Wi-Fi is still connected.
+Mar 17, 2025 8:21:05 AM Tests.Connectivity_WiFi_Linear reconnectWifi
+INFO: Wi-Fi enabled via adb command.
+Mar 17, 2025 8:21:05 AM Tests.Connectivity_WiFi_Linear waitForWifiReconnection
+INFO: Wi-Fi reconnected. Total wait time: 0 seconds.
+Mar 17, 2025 8:21:06 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: Wi-Fi reconnected successfully.
+Mar 17, 2025 8:21:07 AM Tests.Connectivity_WiFi_Linear takeScreenshot
+INFO: Screenshot taken: /Users/hanangoverman/IntelliJProjects/V5-AutomationTests/screenshots/After_Reconnect_WiFi_Step1_20250317_082106.png
+Mar 17, 2025 8:21:07 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: 
+[INFO] Waiting for 10 seconds to stabilize connection...
+Mar 17, 2025 8:21:07 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 10 seconds remaining
+Mar 17, 2025 8:21:08 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 9 seconds remaining
+Mar 17, 2025 8:21:09 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 8 seconds remaining
+Mar 17, 2025 8:21:10 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 7 seconds remaining
+Mar 17, 2025 8:21:11 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 6 seconds remaining
+Mar 17, 2025 8:21:12 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 5 seconds remaining
+Mar 17, 2025 8:21:13 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 4 seconds remaining
+Mar 17, 2025 8:21:14 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 3 seconds remaining
+Mar 17, 2025 8:21:15 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 2 seconds remaining
+Mar 17, 2025 8:21:16 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 1 seconds remaining
+Mar 17, 2025 8:21:17 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing complete.
+Mar 17, 2025 8:21:17 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: [INFO] 10 seconds to next Wi-Fi disconnection.
+Mar 17, 2025 8:21:17 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: 
+=== Test Step 2: Disconnect Wi-Fi for 30 seconds ===
+Mar 17, 2025 8:21:17 AM Tests.Connectivity_WiFi_Linear disconnectWifi
+INFO: Wi-Fi disabled via adb command.
+Mar 17, 2025 8:21:17 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+WARNING: Wi-Fi is still connected.
+Mar 17, 2025 8:21:17 AM Tests.Connectivity_WiFi_Linear reconnectWifi
+INFO: Wi-Fi enabled via adb command.
+Mar 17, 2025 8:21:17 AM Tests.Connectivity_WiFi_Linear waitForWifiReconnection
+INFO: Wi-Fi reconnected. Total wait time: 0 seconds.
+Mar 17, 2025 8:21:18 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: Wi-Fi reconnected successfully.
+Mar 17, 2025 8:21:19 AM Tests.Connectivity_WiFi_Linear takeScreenshot
+INFO: Screenshot taken: /Users/hanangoverman/IntelliJProjects/V5-AutomationTests/screenshots/After_Reconnect_WiFi_Step2_20250317_082118.png
+Mar 17, 2025 8:21:19 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: 
+[INFO] Waiting for 10 seconds to stabilize connection...
+Mar 17, 2025 8:21:19 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 10 seconds remaining
+Mar 17, 2025 8:21:20 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 9 seconds remaining
+Mar 17, 2025 8:21:21 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 8 seconds remaining
+Mar 17, 2025 8:21:22 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 7 seconds remaining
+Mar 17, 2025 8:21:23 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 6 seconds remaining
+Mar 17, 2025 8:21:24 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 5 seconds remaining
+Mar 17, 2025 8:21:25 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 4 seconds remaining
+Mar 17, 2025 8:21:26 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 3 seconds remaining
+Mar 17, 2025 8:21:27 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 2 seconds remaining
+Mar 17, 2025 8:21:28 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 1 seconds remaining
+Mar 17, 2025 8:21:29 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing complete.
+Mar 17, 2025 8:21:29 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: [INFO] 10 seconds to next Wi-Fi disconnection.
+Mar 17, 2025 8:21:29 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: 
+=== Test Step 3: Disconnect Wi-Fi for 35 seconds ===
+Mar 17, 2025 8:21:29 AM Tests.Connectivity_WiFi_Linear disconnectWifi
+INFO: Wi-Fi disabled via adb command.
+Mar 17, 2025 8:21:29 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+WARNING: Wi-Fi is still connected.
+Mar 17, 2025 8:21:29 AM Tests.Connectivity_WiFi_Linear reconnectWifi
+INFO: Wi-Fi enabled via adb command.
+Mar 17, 2025 8:21:29 AM Tests.Connectivity_WiFi_Linear waitForWifiReconnection
+INFO: Wi-Fi reconnected. Total wait time: 0 seconds.
+Mar 17, 2025 8:21:30 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: Wi-Fi reconnected successfully.
+Mar 17, 2025 8:21:31 AM Tests.Connectivity_WiFi_Linear takeScreenshot
+INFO: Screenshot taken: /Users/hanangoverman/IntelliJProjects/V5-AutomationTests/screenshots/After_Reconnect_WiFi_Step3_20250317_082130.png
+Mar 17, 2025 8:21:31 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: 
+[INFO] Waiting for 10 seconds to stabilize connection...
+Mar 17, 2025 8:21:31 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 10 seconds remaining
+Mar 17, 2025 8:21:32 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 9 seconds remaining
+Mar 17, 2025 8:21:33 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 8 seconds remaining
+Mar 17, 2025 8:21:34 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 7 seconds remaining
+Mar 17, 2025 8:21:35 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 6 seconds remaining
+Mar 17, 2025 8:21:36 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 5 seconds remaining
+Mar 17, 2025 8:21:37 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 4 seconds remaining
+Mar 17, 2025 8:21:38 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 3 seconds remaining
+Mar 17, 2025 8:21:39 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 2 seconds remaining
+Mar 17, 2025 8:21:40 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 1 seconds remaining
+Mar 17, 2025 8:21:41 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing complete.
+Mar 17, 2025 8:21:41 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: [INFO] 10 seconds till test ends.
+Mar 17, 2025 8:21:41 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: 
+[SUCCESS] Test completed successfully. Wi-Fi connection is stable.
+Mar 17, 2025 8:21:41 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: 
+=== Wi-Fi Connectivity Test Ended ===
+Mar 17, 2025 8:21:41 AM Tests.Connectivity_WiFi_Linear stopScreenRecording
+INFO: Screen recording stopped.
+Mar 17, 2025 8:21:42 AM Tests.Connectivity_WiFi_Linear stopScreenRecording
+INFO: Screen recording saved to /Users/hanangoverman/IntelliJProjects/V5-AutomationTests/recordings/connectivity_test_20250317_082104.mp4

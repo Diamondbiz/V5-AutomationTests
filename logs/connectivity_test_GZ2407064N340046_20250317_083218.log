@@ -1,0 +1,33 @@
+[2025-03-17 08:32:23] [INFO] Screen recording started: connectivity_test_20250317_083223.mp4
+[2025-03-17 08:32:23] [INFO] === Wi-Fi Connectivity Test Started ===
+[2025-03-17 08:32:23] [INFO] The Wi-Fi is connected. Let's start the test!
+[2025-03-17 08:32:23] [INFO] 
+=== Test Step 1: Disconnect Wi-Fi for 15 seconds ===
+[2025-03-17 08:32:23] [INFO] Wi-Fi disabled via adb command.
+[2025-03-17 08:32:23] [WARNING] Wi-Fi is still connected.
+[2025-03-17 08:32:23] [INFO] Wi-Fi enabled via adb command.
+[2025-03-17 08:32:24] [INFO] Waiting for Wi-Fi to reconnect... 0 seconds elapsed
+[2025-03-17 08:32:26] [INFO] Wi-Fi reconnected. Total wait time: 1 seconds.
+[2025-03-17 08:32:26] [INFO] Wi-Fi reconnected successfully.
+[2025-03-17 08:32:27] [INFO] Screenshot taken: /Users/hanangoverman/IntelliJProjects/V5-AutomationTests/screenshots/After_Reconnect_WiFi_Step1_20250317_083226.png
+[2025-03-17 08:32:27] [INFO] 
+[INFO] Waiting for 10 seconds to stabilize connection...
+[2025-03-17 08:32:37] [INFO] Stabilizing complete.
+[2025-03-17 08:32:37] [INFO] [INFO] 10 seconds to next Wi-Fi disconnection.
+[2025-03-17 08:32:37] [INFO] 
+=== Test Step 2: Disconnect Wi-Fi for 30 seconds ===
+[2025-03-17 08:32:37] [INFO] Wi-Fi disabled via adb command.
+[2025-03-17 08:32:37] [WARNING] Wi-Fi is still connected.
+[2025-03-17 08:32:37] [INFO] Wi-Fi enabled via adb command.
+[2025-03-17 08:32:38] [INFO] Wi-Fi reconnected. Total wait time: 0 seconds.
+[2025-03-17 08:32:38] [INFO] Wi-Fi reconnected successfully.
+[2025-03-17 08:32:39] [INFO] Screenshot taken: /Users/hanangoverman/IntelliJProjects/V5-AutomationTests/screenshots/After_Reconnect_WiFi_Step2_20250317_083238.png
+[2025-03-17 08:32:39] [INFO] 
+[INFO] Waiting for 10 seconds to stabilize connection...
+[2025-03-17 08:32:49] [INFO] Stabilizing complete.
+[2025-03-17 08:32:49] [INFO] [INFO] 10 seconds to next Wi-Fi disconnection.
+[2025-03-17 08:32:49] [INFO] 
+=== Test Step 3: Disconnect Wi-Fi for 35 seconds ===
+[2025-03-17 08:32:49] [INFO] Wi-Fi disabled via adb command.
+[2025-03-17 08:32:50] [INFO] Wi-Fi is disconnected. Starting 35-second countdown...
+[2025-03-17 08:32:51] [INFO] Screenshot taken: /Users/hanangoverman/IntelliJProjects/V5-AutomationTests/screenshots/Before_Disconnect_WiFi_Step3_20250317_083250.png

@@ -1,0 +1,15 @@
+2025-03-17 07:44:53 - Searching for network connection
+2025-03-17 07:44:53 - LAN/Wi-Fi connection established.
+2025-03-17 07:44:53 - Let's start testing.
+2025-03-17 07:44:53 - Video recording started.
+2025-03-17 07:44:53 - First test: 15 sec Wi-Fi disconnection starts.
+2025-03-17 07:44:54 - Screenshot saved: before_disconnection.png
+2025-03-17 07:44:54 - Wi-Fi disconnected.
+2025-03-17 07:44:55 - Wi-Fi network still connected.
+2025-03-17 07:45:10 - Wi-Fi reconnected.
+2025-03-17 07:45:10 - Time for reconnection
+2025-03-17 07:45:10 - In process: Wi-Fi reconnection.
+2025-03-17 07:45:12 - Screenshot saved: after_reconnection.png
+2025-03-17 07:45:12 - Wi-Fi reconnected.
+2025-03-17 07:45:12 - Stabilization time: 10 seconds
+2025-03-17 07:45:22 - Wi-Fi network stabilized and connected.

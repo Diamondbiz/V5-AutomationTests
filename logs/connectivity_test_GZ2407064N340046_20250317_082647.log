@@ -1,0 +1,105 @@
+Mar 17, 2025 8:26:52 AM Tests.Connectivity_WiFi_Linear startScreenRecording
+INFO: Screen recording started: connectivity_test_20250317_082652.mp4
+Mar 17, 2025 8:26:52 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: === Wi-Fi Connectivity Test Started ===
+Mar 17, 2025 8:26:52 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: The Wi-Fi is connected. Let's start the test!
+Mar 17, 2025 8:26:52 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: 
+=== Test Step 1: Disconnect Wi-Fi for 15 seconds ===
+Mar 17, 2025 8:26:52 AM Tests.Connectivity_WiFi_Linear disconnectWifi
+INFO: Wi-Fi disabled via adb command.
+Mar 17, 2025 8:26:52 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+WARNING: Wi-Fi is still connected.
+Mar 17, 2025 8:26:52 AM Tests.Connectivity_WiFi_Linear reconnectWifi
+INFO: Wi-Fi enabled via adb command.
+Mar 17, 2025 8:26:53 AM Tests.Connectivity_WiFi_Linear waitForWifiReconnection
+INFO: Waiting for Wi-Fi to reconnect... 0 seconds elapsed
+Mar 17, 2025 8:26:54 AM Tests.Connectivity_WiFi_Linear waitForWifiReconnection
+INFO: Wi-Fi reconnected. Total wait time: 1 seconds.
+Mar 17, 2025 8:26:55 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: Wi-Fi reconnected successfully.
+Mar 17, 2025 8:26:57 AM Tests.Connectivity_WiFi_Linear takeScreenshot
+INFO: Screenshot taken: /Users/hanangoverman/IntelliJProjects/V5-AutomationTests/screenshots/After_Reconnect_WiFi_Step1_20250317_082655.png
+Mar 17, 2025 8:26:57 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: 
+[INFO] Waiting for 10 seconds to stabilize connection...
+Mar 17, 2025 8:26:57 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 10 seconds remaining
+Mar 17, 2025 8:26:58 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 9 seconds remaining
+Mar 17, 2025 8:26:59 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 8 seconds remaining
+Mar 17, 2025 8:27:00 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 7 seconds remaining
+Mar 17, 2025 8:27:01 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 6 seconds remaining
+Mar 17, 2025 8:27:02 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 5 seconds remaining
+Mar 17, 2025 8:27:03 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 4 seconds remaining
+Mar 17, 2025 8:27:04 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 3 seconds remaining
+Mar 17, 2025 8:27:05 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 2 seconds remaining
+Mar 17, 2025 8:27:06 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 1 seconds remaining
+Mar 17, 2025 8:27:07 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing complete.
+Mar 17, 2025 8:27:07 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: [INFO] 10 seconds to next Wi-Fi disconnection.
+Mar 17, 2025 8:27:07 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: 
+=== Test Step 2: Disconnect Wi-Fi for 30 seconds ===
+Mar 17, 2025 8:27:07 AM Tests.Connectivity_WiFi_Linear disconnectWifi
+INFO: Wi-Fi disabled via adb command.
+Mar 17, 2025 8:27:07 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+WARNING: Wi-Fi is still connected.
+Mar 17, 2025 8:27:07 AM Tests.Connectivity_WiFi_Linear reconnectWifi
+INFO: Wi-Fi enabled via adb command.
+Mar 17, 2025 8:27:07 AM Tests.Connectivity_WiFi_Linear waitForWifiReconnection
+INFO: Wi-Fi reconnected. Total wait time: 0 seconds.
+Mar 17, 2025 8:27:08 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: Wi-Fi reconnected successfully.
+Mar 17, 2025 8:27:09 AM Tests.Connectivity_WiFi_Linear takeScreenshot
+INFO: Screenshot taken: /Users/hanangoverman/IntelliJProjects/V5-AutomationTests/screenshots/After_Reconnect_WiFi_Step2_20250317_082708.png
+Mar 17, 2025 8:27:09 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: 
+[INFO] Waiting for 10 seconds to stabilize connection...
+Mar 17, 2025 8:27:09 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 10 seconds remaining
+Mar 17, 2025 8:27:10 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 9 seconds remaining
+Mar 17, 2025 8:27:11 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 8 seconds remaining
+Mar 17, 2025 8:27:12 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 7 seconds remaining
+Mar 17, 2025 8:27:13 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 6 seconds remaining
+Mar 17, 2025 8:27:14 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 5 seconds remaining
+Mar 17, 2025 8:27:15 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 4 seconds remaining
+Mar 17, 2025 8:27:16 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 3 seconds remaining
+Mar 17, 2025 8:27:17 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 2 seconds remaining
+Mar 17, 2025 8:27:18 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing... 1 seconds remaining
+Mar 17, 2025 8:27:19 AM Tests.Connectivity_WiFi_Linear countdownTimer
+INFO: Stabilizing complete.
+Mar 17, 2025 8:27:19 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: [INFO] 10 seconds to next Wi-Fi disconnection.
+Mar 17, 2025 8:27:19 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+INFO: 
+=== Test Step 3: Disconnect Wi-Fi for 35 seconds ===
+Mar 17, 2025 8:27:19 AM Tests.Connectivity_WiFi_Linear disconnectWifi
+INFO: Wi-Fi disabled via adb command.
+Mar 17, 2025 8:27:19 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+WARNING: Wi-Fi is still connected.
+Mar 17, 2025 8:27:19 AM Tests.Connectivity_WiFi_Linear reconnectWifi
+INFO: Wi-Fi enabled via adb command.
+Mar 17, 2025 8:27:19 AM Tests.Connectivity_WiFi_Linear waitForWifiReconnection
+INFO: Wi-Fi reconnected. Total wait time: 0 seconds.
+Mar 17, 2025 8:27:20 AM Tests.Connectivity_WiFi_Linear runWifiConnectivityTest
+SEVERE: Wi-Fi connection lost.

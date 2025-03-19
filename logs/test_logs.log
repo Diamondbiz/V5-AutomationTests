@@ -1,0 +1,1426 @@
+2025-03-16 11:09:34.093 [main] INFO  Tests.Upgradeforwifi - === Wi-Fi Connectivity Test Started ===
+2025-03-16 11:09:34.172 [main] INFO  Tests.Upgradeforwifi - The Wi-Fi is connected. Starting the test!
+2025-03-16 11:09:34.174 [main] INFO  Tests.Upgradeforwifi - === Test Step 1: Disconnect Wi-Fi for 15 seconds ===
+2025-03-16 11:09:34.771 [main] INFO  Tests.Upgradeforwifi - Wi-Fi is disconnected. Starting 15-second countdown...
+2025-03-16 11:09:34.785 [main] ERROR Tests.Upgradeforwifi - Failed to take screenshot
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [2aa212f5-5e23-4d8b-aaca-89010d9f277a, screenshot {}]
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 2aa212f5-5e23-4d8b-aaca-89010d9f277a
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243) ~[java-client-9.4.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.29.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:235) ~[java-client-9.4.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334) ~[selenium-remote-driver-4.29.0.jar:?]
+	at io.appium.java_client.AppiumDriver.getScreenshotAs(AppiumDriver.java:244) ~[java-client-9.4.0.jar:?]
+	at Tests.Upgradeforwifi.takeScreenshot(Upgradeforwifi.java:246) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:146) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:113) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+2025-03-16 11:09:34.803 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [2aa212f5-5e23-4d8b-aaca-89010d9f277a, findElement {value=//android.widget.ImageView[@content-desc="HOT Play"], using=xpath}]
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 2aa212f5-5e23-4d8b-aaca-89010d9f277a
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243) ~[java-client-9.4.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$49.apply(ExpectedConditions.java:1396) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$49.apply(ExpectedConditions.java:1390) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:171) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:147) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:113) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+2025-03-16 11:09:49.875 [main] INFO  Tests.Upgradeforwifi - Reconnecting Wi-Fi...
+2025-03-16 11:09:51.170 [main] INFO  Tests.Upgradeforwifi - Wi-Fi reconnected successfully.
+2025-03-16 11:09:51.179 [main] ERROR Tests.Upgradeforwifi - Failed to take screenshot
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [2aa212f5-5e23-4d8b-aaca-89010d9f277a, screenshot {}]
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 2aa212f5-5e23-4d8b-aaca-89010d9f277a
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243) ~[java-client-9.4.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.29.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:235) ~[java-client-9.4.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334) ~[selenium-remote-driver-4.29.0.jar:?]
+	at io.appium.java_client.AppiumDriver.getScreenshotAs(AppiumDriver.java:244) ~[java-client-9.4.0.jar:?]
+	at Tests.Upgradeforwifi.takeScreenshot(Upgradeforwifi.java:246) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:157) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:113) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+2025-03-16 11:09:51.189 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [2aa212f5-5e23-4d8b-aaca-89010d9f277a, findElement {value=//android.widget.ImageView[@content-desc="HOT Play"], using=xpath}]
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 2aa212f5-5e23-4d8b-aaca-89010d9f277a
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243) ~[java-client-9.4.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$49.apply(ExpectedConditions.java:1396) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$49.apply(ExpectedConditions.java:1390) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:186) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:158) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:113) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+2025-03-16 11:09:51.190 [main] INFO  Tests.Upgradeforwifi - Waiting for 10 seconds to stabilize connection...
+2025-03-16 11:10:01.237 [main] INFO  Tests.Upgradeforwifi - === Test Step 2: Disconnect Wi-Fi for 30 seconds ===
+2025-03-16 11:10:01.844 [main] INFO  Tests.Upgradeforwifi - Wi-Fi is disconnected. Starting 30-second countdown...
+2025-03-16 11:10:01.853 [main] ERROR Tests.Upgradeforwifi - Failed to take screenshot
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [2aa212f5-5e23-4d8b-aaca-89010d9f277a, screenshot {}]
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 2aa212f5-5e23-4d8b-aaca-89010d9f277a
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243) ~[java-client-9.4.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.29.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:235) ~[java-client-9.4.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334) ~[selenium-remote-driver-4.29.0.jar:?]
+	at io.appium.java_client.AppiumDriver.getScreenshotAs(AppiumDriver.java:244) ~[java-client-9.4.0.jar:?]
+	at Tests.Upgradeforwifi.takeScreenshot(Upgradeforwifi.java:246) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:146) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:114) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+2025-03-16 11:10:01.867 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [2aa212f5-5e23-4d8b-aaca-89010d9f277a, findElement {value=//android.widget.ImageView[@content-desc="HOT Play"], using=xpath}]
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 2aa212f5-5e23-4d8b-aaca-89010d9f277a
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243) ~[java-client-9.4.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$49.apply(ExpectedConditions.java:1396) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$49.apply(ExpectedConditions.java:1390) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:171) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:147) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:114) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+2025-03-16 11:10:31.986 [main] INFO  Tests.Upgradeforwifi - Reconnecting Wi-Fi...
+2025-03-16 11:10:32.196 [main] INFO  Tests.Upgradeforwifi - Wi-Fi reconnected successfully.
+2025-03-16 11:10:32.210 [main] ERROR Tests.Upgradeforwifi - Failed to take screenshot
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [2aa212f5-5e23-4d8b-aaca-89010d9f277a, screenshot {}]
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 2aa212f5-5e23-4d8b-aaca-89010d9f277a
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243) ~[java-client-9.4.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.29.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:235) ~[java-client-9.4.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334) ~[selenium-remote-driver-4.29.0.jar:?]
+	at io.appium.java_client.AppiumDriver.getScreenshotAs(AppiumDriver.java:244) ~[java-client-9.4.0.jar:?]
+	at Tests.Upgradeforwifi.takeScreenshot(Upgradeforwifi.java:246) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:157) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:114) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+2025-03-16 11:10:32.222 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [2aa212f5-5e23-4d8b-aaca-89010d9f277a, findElement {value=//android.widget.ImageView[@content-desc="HOT Play"], using=xpath}]
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 2aa212f5-5e23-4d8b-aaca-89010d9f277a
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.29.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243) ~[java-client-9.4.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$49.apply(ExpectedConditions.java:1396) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$49.apply(ExpectedConditions.java:1390) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:186) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:158) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:114) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119) [surefire-testng-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548) [surefire-booter-3.0.0-M5.jar:3.0.0-M5]
+2025-03-16 11:10:32.223 [main] INFO  Tests.Upgradeforwifi - Waiting for 10 seconds to stabilize connection...
+2025-03-16 11:27:28.425 [main] INFO  Tests.Upgradeforwifi - === Wi-Fi Connectivity Test Started ===
+2025-03-16 11:27:28.525 [main] INFO  Tests.Upgradeforwifi - The Wi-Fi is connected. Starting the test!
+2025-03-16 11:27:28.526 [main] INFO  Tests.Upgradeforwifi - === Test Step 1: Disconnect Wi-Fi for 15 seconds ===
+2025-03-16 11:27:29.190 [main] INFO  Tests.Upgradeforwifi - Wi-Fi is disconnected. Starting 15-second countdown...
+2025-03-16 11:28:01.282 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: visibility of element located by By.xpath: //android.widget.ProgressBar || visibility of element located by By.xpath: //android.widget.FrameLayout[@resource-id='com.android.systemui:id/status_bar_container'] || visibility of element located by By.xpath: //android.widget.ImageView[@content-desc="HOT Play"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 09f980da-dfc4-4cad-bba5-46f0f527e9d5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:171) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:147) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:113) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 11:28:16.362 [main] INFO  Tests.Upgradeforwifi - Reconnecting Wi-Fi...
+2025-03-16 11:28:17.672 [main] INFO  Tests.Upgradeforwifi - Wi-Fi reconnected successfully.
+2025-03-16 11:28:19.425 [main] INFO  Tests.Upgradeforwifi - Error message displayed during reconnection.
+2025-03-16 11:28:19.425 [main] INFO  Tests.Upgradeforwifi - Waiting for 10 seconds to stabilize connection...
+2025-03-16 11:28:29.465 [main] INFO  Tests.Upgradeforwifi - === Test Step 2: Disconnect Wi-Fi for 30 seconds ===
+2025-03-16 11:28:30.116 [main] INFO  Tests.Upgradeforwifi - Wi-Fi is disconnected. Starting 30-second countdown...
+2025-03-16 11:29:01.750 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: visibility of element located by By.xpath: //android.widget.ProgressBar || visibility of element located by By.xpath: //android.widget.FrameLayout[@resource-id='com.android.systemui:id/status_bar_container'] || visibility of element located by By.xpath: //android.widget.ImageView[@content-desc="HOT Play"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 09f980da-dfc4-4cad-bba5-46f0f527e9d5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:171) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:147) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:114) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 11:29:31.865 [main] INFO  Tests.Upgradeforwifi - Reconnecting Wi-Fi...
+2025-03-16 11:29:32.111 [main] INFO  Tests.Upgradeforwifi - Wi-Fi reconnected successfully.
+2025-03-16 11:30:03.834 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: visibility of element located by By.xpath: //*[contains(@text,'error') or contains(@text,'Error') or contains(@text,'ERROR')] || visibility of element located by By.xpath: //android.widget.ImageView[@content-desc="HOT Play"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 09f980da-dfc4-4cad-bba5-46f0f527e9d5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:186) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:158) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:114) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 11:30:03.837 [main] INFO  Tests.Upgradeforwifi - Waiting for 10 seconds to stabilize connection...
+2025-03-16 11:30:13.887 [main] INFO  Tests.Upgradeforwifi - === Test Step 3: Disconnect Wi-Fi for 35 seconds ===
+2025-03-16 11:30:14.497 [main] INFO  Tests.Upgradeforwifi - Wi-Fi is disconnected. Starting 35-second countdown...
+2025-03-16 11:30:46.742 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: visibility of element located by By.xpath: //android.widget.ProgressBar || visibility of element located by By.xpath: //android.widget.FrameLayout[@resource-id='com.android.systemui:id/status_bar_container'] || visibility of element located by By.xpath: //android.widget.ImageView[@content-desc="HOT Play"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 09f980da-dfc4-4cad-bba5-46f0f527e9d5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:171) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:147) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:115) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 11:31:21.901 [main] INFO  Tests.Upgradeforwifi - Reconnecting Wi-Fi...
+2025-03-16 11:31:22.074 [main] INFO  Tests.Upgradeforwifi - Wi-Fi reconnected successfully.
+2025-03-16 11:31:53.403 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: visibility of element located by By.xpath: //*[contains(@text,'error') or contains(@text,'Error') or contains(@text,'ERROR')] || visibility of element located by By.xpath: //android.widget.ImageView[@content-desc="HOT Play"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 09f980da-dfc4-4cad-bba5-46f0f527e9d5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:186) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:158) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:115) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 11:31:53.405 [main] INFO  Tests.Upgradeforwifi - Waiting for 10 seconds to stabilize connection...
+2025-03-16 11:32:03.560 [main] INFO  Tests.Upgradeforwifi - Test completed successfully. Wi-Fi connection is stable.
+2025-03-16 11:32:03.561 [main] INFO  Tests.Upgradeforwifi - === Wi-Fi Connectivity Test Ended ===
+2025-03-16 11:32:03.577 [main] INFO  Tests.Upgradeforwifi - Screen recording stopped.
+2025-03-16 11:32:08.699 [main] INFO  Tests.Upgradeforwifi - Screen recording saved to /Users/hanangoverman/IntelliJProjects/V5-AutomationTests/recordings/connectivity_test_20250316_112728.mp4
+2025-03-16 11:32:08.703 [main] INFO  Tests.Upgradeforwifi - Video file removed from device
+2025-03-16 12:47:00.398 [main] INFO  Tests.Upgradeforwifi - === Wi-Fi Connectivity Test Started ===
+2025-03-16 12:47:00.465 [main] INFO  Tests.Upgradeforwifi - The Wi-Fi is connected. Starting the test!
+2025-03-16 12:47:00.467 [main] INFO  Tests.Upgradeforwifi - === Test Step 1: Disconnect Wi-Fi for 15 seconds ===
+2025-03-16 12:47:01.063 [main] INFO  Tests.Upgradeforwifi - Wi-Fi is disconnected. Starting 15-second countdown...
+2025-03-16 12:47:32.639 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: visibility of element located by By.xpath: //android.widget.ProgressBar || visibility of element located by By.xpath: //android.widget.FrameLayout[@resource-id='com.android.systemui:id/status_bar_container'] || visibility of element located by By.xpath: //android.widget.ImageView[@content-desc="HOT Play"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 34282b53-a2e8-46f6-a76f-96d449a9fdbb
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:171) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:147) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:113) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 12:47:47.715 [main] INFO  Tests.Upgradeforwifi - Reconnecting Wi-Fi...
+2025-03-16 12:47:47.887 [main] INFO  Tests.Upgradeforwifi - Wi-Fi reconnected successfully.
+2025-03-16 12:48:19.772 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: visibility of element located by By.xpath: //*[contains(@text,'error') or contains(@text,'Error') or contains(@text,'ERROR')] || visibility of element located by By.xpath: //android.widget.ImageView[@content-desc="HOT Play"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 34282b53-a2e8-46f6-a76f-96d449a9fdbb
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:186) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:158) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:113) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 12:48:19.773 [main] INFO  Tests.Upgradeforwifi - Waiting for 10 seconds to stabilize connection...
+2025-03-16 12:48:29.814 [main] INFO  Tests.Upgradeforwifi - === Test Step 2: Disconnect Wi-Fi for 30 seconds ===
+2025-03-16 12:48:30.443 [main] INFO  Tests.Upgradeforwifi - Wi-Fi is disconnected. Starting 30-second countdown...
+2025-03-16 12:49:02.204 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: visibility of element located by By.xpath: //android.widget.ProgressBar || visibility of element located by By.xpath: //android.widget.FrameLayout[@resource-id='com.android.systemui:id/status_bar_container'] || visibility of element located by By.xpath: //android.widget.ImageView[@content-desc="HOT Play"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 34282b53-a2e8-46f6-a76f-96d449a9fdbb
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:171) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:147) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:114) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 12:49:32.330 [main] INFO  Tests.Upgradeforwifi - Reconnecting Wi-Fi...
+2025-03-16 12:49:33.618 [main] INFO  Tests.Upgradeforwifi - Wi-Fi reconnected successfully.
+2025-03-16 12:50:05.673 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: visibility of element located by By.xpath: //*[contains(@text,'error') or contains(@text,'Error') or contains(@text,'ERROR')] || visibility of element located by By.xpath: //android.widget.ImageView[@content-desc="HOT Play"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 34282b53-a2e8-46f6-a76f-96d449a9fdbb
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:186) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:158) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:114) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 12:50:05.675 [main] INFO  Tests.Upgradeforwifi - Waiting for 10 seconds to stabilize connection...
+2025-03-16 12:50:15.712 [main] INFO  Tests.Upgradeforwifi - === Test Step 3: Disconnect Wi-Fi for 35 seconds ===
+2025-03-16 12:50:16.326 [main] INFO  Tests.Upgradeforwifi - Wi-Fi is disconnected. Starting 35-second countdown...
+2025-03-16 12:50:47.579 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: visibility of element located by By.xpath: //android.widget.ProgressBar || visibility of element located by By.xpath: //android.widget.FrameLayout[@resource-id='com.android.systemui:id/status_bar_container'] || visibility of element located by By.xpath: //android.widget.ImageView[@content-desc="HOT Play"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 34282b53-a2e8-46f6-a76f-96d449a9fdbb
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:171) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:147) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:115) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 12:51:22.747 [main] INFO  Tests.Upgradeforwifi - Reconnecting Wi-Fi...
+2025-03-16 12:51:22.957 [main] INFO  Tests.Upgradeforwifi - Wi-Fi reconnected successfully.
+2025-03-16 13:16:40.232 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screen recording started: connectivity_test_20250316_131640.mp4
+2025-03-16 13:16:40.233 [main] INFO  Tests.Upgradeforwifi - === Wi-Fi Connectivity Test Started ===
+2025-03-16 13:16:40.332 [main] INFO  Tests.Upgradeforwifi - The Wi-Fi is connected. Starting the test!
+2025-03-16 13:16:40.333 [main] INFO  Tests.Upgradeforwifi - === Test Step 1: Disconnect Wi-Fi for 15 seconds ===
+2025-03-16 13:16:41.023 [main] INFO  Tests.Upgradeforwifi - Wi-Fi is disconnected. Starting 15-second countdown...
+2025-03-16 13:16:42.124 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screenshot taken: Before_Disconnect_WiFi_Step 1_20250316_131641.png
+2025-03-16 13:17:12.752 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: visibility of element located by By.xpath: //android.widget.ProgressBar || visibility of element located by By.xpath: //android.widget.FrameLayout[@resource-id='com.android.systemui:id/status_bar_container'] || visibility of element located by By.xpath: //android.widget.ImageView[@content-desc="HOT Play"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 2d3c9be8-124d-49ee-81ae-5b3ad82940e0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:171) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:147) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:113) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 13:17:27.828 [main] INFO  Tests.Upgradeforwifi - Reconnecting Wi-Fi...
+2025-03-16 13:17:28.000 [main] INFO  Tests.Upgradeforwifi - Wi-Fi reconnected successfully.
+2025-03-16 13:17:28.823 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screenshot taken: After_Reconnect_WiFi_Step 1_20250316_131728.png
+2025-03-16 13:17:29.732 [main] DEBUG Tests.Upgradeforwifi - Error message displayed during reconnection.
+2025-03-16 13:17:29.733 [main] INFO  Tests.Upgradeforwifi - Waiting for 10 seconds to stabilize connection...
+2025-03-16 13:17:39.774 [main] INFO  Tests.Upgradeforwifi - === Test Step 2: Disconnect Wi-Fi for 30 seconds ===
+2025-03-16 13:17:40.406 [main] INFO  Tests.Upgradeforwifi - Wi-Fi is disconnected. Starting 30-second countdown...
+2025-03-16 13:17:41.331 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screenshot taken: Before_Disconnect_WiFi_Step 2_20250316_131740.png
+2025-03-16 13:18:11.536 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: visibility of element located by By.xpath: //android.widget.ProgressBar || visibility of element located by By.xpath: //android.widget.FrameLayout[@resource-id='com.android.systemui:id/status_bar_container'] || visibility of element located by By.xpath: //android.widget.ImageView[@content-desc="HOT Play"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 2d3c9be8-124d-49ee-81ae-5b3ad82940e0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:171) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:147) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:114) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 13:18:41.661 [main] INFO  Tests.Upgradeforwifi - Reconnecting Wi-Fi...
+2025-03-16 13:18:41.833 [main] INFO  Tests.Upgradeforwifi - Wi-Fi reconnected successfully.
+2025-03-16 13:18:42.687 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screenshot taken: After_Reconnect_WiFi_Step 2_20250316_131841.png
+2025-03-16 13:18:43.319 [main] DEBUG Tests.Upgradeforwifi - Error message displayed during reconnection.
+2025-03-16 13:18:43.320 [main] INFO  Tests.Upgradeforwifi - Waiting for 10 seconds to stabilize connection...
+2025-03-16 13:18:53.363 [main] INFO  Tests.Upgradeforwifi - === Test Step 3: Disconnect Wi-Fi for 35 seconds ===
+2025-03-16 13:18:53.970 [main] INFO  Tests.Upgradeforwifi - Wi-Fi is disconnected. Starting 35-second countdown...
+2025-03-16 13:18:55.349 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screenshot taken: Before_Disconnect_WiFi_Step 3_20250316_131853.png
+2025-03-16 13:19:26.879 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: visibility of element located by By.xpath: //android.widget.ProgressBar || visibility of element located by By.xpath: //android.widget.FrameLayout[@resource-id='com.android.systemui:id/status_bar_container'] || visibility of element located by By.xpath: //android.widget.ImageView[@content-desc="HOT Play"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 2d3c9be8-124d-49ee-81ae-5b3ad82940e0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:171) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:147) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:115) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 13:27:25.783 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screen recording started: connectivity_test_20250316_132725.mp4
+2025-03-16 13:27:25.784 [main] INFO  Tests.Upgradeforwifi - === Wi-Fi Connectivity Test Started ===
+2025-03-16 13:27:25.869 [main] INFO  Tests.Upgradeforwifi - The Wi-Fi is connected. Starting the test!
+2025-03-16 13:27:25.871 [main] INFO  Tests.Upgradeforwifi - === Test Step 1: Disconnect Wi-Fi for 15 seconds ===
+2025-03-16 13:27:26.629 [main] INFO  Tests.Upgradeforwifi - Wi-Fi is disconnected. Starting 15-second countdown...
+2025-03-16 13:27:27.885 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screenshot taken: Before_Disconnect_WiFi_Step 1_20250316_132726.png
+2025-03-16 13:27:58.703 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: visibility of element located by By.xpath: //android.widget.ProgressBar || visibility of element located by By.xpath: //android.widget.FrameLayout[@resource-id='com.android.systemui:id/status_bar_container'] || visibility of element located by By.xpath: //android.widget.ImageView[@content-desc="HOT Play"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 28686cb9-49e9-40f5-b6cb-1518c8ec6ce5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:171) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:147) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:113) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 13:28:13.781 [main] INFO  Tests.Upgradeforwifi - Reconnecting Wi-Fi...
+2025-03-16 13:28:15.069 [main] INFO  Tests.Upgradeforwifi - Wi-Fi reconnected successfully.
+2025-03-16 13:28:15.859 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screenshot taken: After_Reconnect_WiFi_Step 1_20250316_132815.png
+2025-03-16 13:28:16.721 [main] DEBUG Tests.Upgradeforwifi - Error message displayed during reconnection.
+2025-03-16 13:28:16.721 [main] INFO  Tests.Upgradeforwifi - Waiting for 15 seconds to stabilize connection...
+2025-03-16 13:28:31.758 [main] INFO  Tests.Upgradeforwifi - === Test Step 2: Disconnect Wi-Fi for 30 seconds ===
+2025-03-16 13:28:32.365 [main] INFO  Tests.Upgradeforwifi - Wi-Fi is disconnected. Starting 30-second countdown...
+2025-03-16 13:28:33.844 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screenshot taken: Before_Disconnect_WiFi_Step 2_20250316_132832.png
+2025-03-16 13:29:04.614 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: visibility of element located by By.xpath: //android.widget.ProgressBar || visibility of element located by By.xpath: //android.widget.FrameLayout[@resource-id='com.android.systemui:id/status_bar_container'] || visibility of element located by By.xpath: //android.widget.ImageView[@content-desc="HOT Play"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 28686cb9-49e9-40f5-b6cb-1518c8ec6ce5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:171) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:147) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:114) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 13:29:34.710 [main] INFO  Tests.Upgradeforwifi - Reconnecting Wi-Fi...
+2025-03-16 13:29:34.906 [main] INFO  Tests.Upgradeforwifi - Wi-Fi reconnected successfully.
+2025-03-16 13:29:36.306 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screenshot taken: After_Reconnect_WiFi_Step 2_20250316_132934.png
+2025-03-16 13:30:06.820 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: visibility of element located by By.xpath: //*[contains(@text,'error') or contains(@text,'Error') or contains(@text,'ERROR')] || visibility of element located by By.xpath: //android.widget.ImageView[@content-desc="HOT Play"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 28686cb9-49e9-40f5-b6cb-1518c8ec6ce5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:186) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:158) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:114) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 13:30:06.822 [main] INFO  Tests.Upgradeforwifi - Waiting for 15 seconds to stabilize connection...
+2025-03-16 13:30:21.866 [main] INFO  Tests.Upgradeforwifi - === Test Step 3: Disconnect Wi-Fi for 35 seconds ===
+2025-03-16 13:30:22.476 [main] INFO  Tests.Upgradeforwifi - Wi-Fi is disconnected. Starting 35-second countdown...
+2025-03-16 13:30:23.762 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screenshot taken: Before_Disconnect_WiFi_Step 3_20250316_133022.png
+2025-03-16 13:30:54.250 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: visibility of element located by By.xpath: //android.widget.ProgressBar || visibility of element located by By.xpath: //android.widget.FrameLayout[@resource-id='com.android.systemui:id/status_bar_container'] || visibility of element located by By.xpath: //android.widget.ImageView[@content-desc="HOT Play"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 28686cb9-49e9-40f5-b6cb-1518c8ec6ce5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:171) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:147) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:115) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 13:31:29.395 [main] INFO  Tests.Upgradeforwifi - Reconnecting Wi-Fi...
+2025-03-16 13:31:30.673 [main] INFO  Tests.Upgradeforwifi - Wi-Fi reconnected successfully.
+2025-03-16 13:31:31.997 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screenshot taken: After_Reconnect_WiFi_Step 3_20250316_133130.png
+2025-03-16 13:32:03.230 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for at least one condition to be valid: visibility of element located by By.xpath: //*[contains(@text,'error') or contains(@text,'Error') or contains(@text,'ERROR')] || visibility of element located by By.xpath: //android.widget.ImageView[@content-desc="HOT Play"] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 28686cb9-49e9-40f5-b6cb-1518c8ec6ce5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:186) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:158) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:115) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 13:32:03.232 [main] INFO  Tests.Upgradeforwifi - Waiting for 15 seconds to stabilize connection...
+2025-03-16 13:32:18.383 [main] INFO  Tests.Upgradeforwifi - Test completed successfully. Wi-Fi connection is stable.
+2025-03-16 13:32:18.384 [main] INFO  Tests.Upgradeforwifi - === Wi-Fi Connectivity Test Ended ===
+2025-03-16 13:32:18.402 [main] INFO  Tests.Upgradeforwifi - Screen recording stopped.
+2025-03-16 13:32:23.498 [main] INFO  Tests.Upgradeforwifi - Screen recording saved to /Users/hanangoverman/IntelliJProjects/V5-AutomationTests/recordings/connectivity_test_20250316_132725.mp4
+2025-03-16 13:32:23.505 [main] INFO  Tests.Upgradeforwifi - Video file removed from device
+2025-03-16 14:36:21.384 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screen recording started: connectivity_test_20250316_143621.mp4
+2025-03-16 14:36:21.385 [main] INFO  Tests.Upgradeforwifi - === Wi-Fi Connectivity Test Started ===
+2025-03-16 14:36:21.481 [main] INFO  Tests.Upgradeforwifi - The Wi-Fi is connected. Starting the test!
+2025-03-16 14:36:21.483 [main] INFO  Tests.Upgradeforwifi - === Test Step 1: Disconnect Wi-Fi for 15 seconds ===
+2025-03-16 14:36:22.214 [main] INFO  Tests.Upgradeforwifi - Wi-Fi is disconnected. Starting 15-second countdown...
+2025-03-16 14:36:23.470 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screenshot taken: Before_Disconnect_WiFi_Step 1_20250316_143622.png
+2025-03-16 14:36:53.962 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by AppiumBy.id: dvLoader (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b87ef319-9080-458e-93bf-b494dfd58cce
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:170) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:146) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:112) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 14:37:09.029 [main] INFO  Tests.Upgradeforwifi - Reconnecting Wi-Fi...
+2025-03-16 14:37:09.230 [main] INFO  Tests.Upgradeforwifi - Wi-Fi reconnected successfully.
+2025-03-16 14:37:10.031 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screenshot taken: After_Reconnect_WiFi_Step 1_20250316_143709.png
+2025-03-16 14:37:40.069 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by AppiumBy.id: dvLoader (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b87ef319-9080-458e-93bf-b494dfd58cce
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:182) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:157) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:112) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 14:37:40.070 [main] INFO  Tests.Upgradeforwifi - Waiting for 10 seconds to stabilize connection...
+2025-03-16 14:37:50.117 [main] INFO  Tests.Upgradeforwifi - === Test Step 2: Disconnect Wi-Fi for 30 seconds ===
+2025-03-16 14:37:50.799 [main] INFO  Tests.Upgradeforwifi - Wi-Fi is disconnected. Starting 30-second countdown...
+2025-03-16 14:37:51.757 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screenshot taken: Before_Disconnect_WiFi_Step 2_20250316_143750.png
+2025-03-16 14:38:22.313 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by AppiumBy.id: dvLoader (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b87ef319-9080-458e-93bf-b494dfd58cce
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:170) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:146) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:113) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 14:38:52.442 [main] INFO  Tests.Upgradeforwifi - Reconnecting Wi-Fi...
+2025-03-16 14:38:52.626 [main] INFO  Tests.Upgradeforwifi - Wi-Fi reconnected successfully.
+2025-03-16 14:38:53.387 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screenshot taken: After_Reconnect_WiFi_Step 2_20250316_143852.png
+2025-03-16 14:39:23.531 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by AppiumBy.id: dvLoader (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b87ef319-9080-458e-93bf-b494dfd58cce
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:182) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:157) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:113) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-03-16 14:39:23.532 [main] INFO  Tests.Upgradeforwifi - Waiting for 10 seconds to stabilize connection...
+2025-03-16 14:39:33.570 [main] INFO  Tests.Upgradeforwifi - === Test Step 3: Disconnect Wi-Fi for 35 seconds ===
+2025-03-16 14:39:34.183 [main] INFO  Tests.Upgradeforwifi - Wi-Fi is disconnected. Starting 35-second countdown...
+2025-03-16 14:39:35.533 [main] DEBUG Tests.Upgradeforwifi - [INFO] Screenshot taken: Before_Disconnect_WiFi_Step 3_20250316_143934.png
+2025-03-16 14:40:05.649 [main] ERROR Tests.Upgradeforwifi - Exception in checkAppBehavior
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by AppiumBy.id: dvLoader (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.2', java.version: '21.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appium:appActivity: il.net.hot.hot.TvMainActivity, appium:appPackage: il.net.hot.hot, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: il.net.hot.hot.TvMainActivity, appPackage: il.net.hot.hot, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: HOTStreamerV4-b1d6, disableWindowAnimation: false, noReset: true, noSign: true, platformName: ANDROID, platformVersion: 14, skipUnlock: true, udid: GZ2407064N340046}, appium:deviceApiLevel: 34, appium:deviceManufacturer: SEI Robotics, appium:deviceModel: HOT Streamer V4, appium:deviceName: GZ2407064N340046, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 1920x1080, appium:deviceUDID: GZ2407064N340046, appium:disableWindowAnimation: false, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:noSign: true, appium:pixelRatio: 2, appium:platformVersion: 14, appium:skipUnlock: true, appium:statBarHeight: 0, appium:takesScreenshot: true, appium:udid: GZ2407064N340046, appium:viewportRect: {height: 1080, left: 0, top: 0, width: 1920}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b87ef319-9080-458e-93bf-b494dfd58cce
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84) ~[selenium-support-4.29.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.29.0.jar:?]
+	at Tests.Upgradeforwifi.checkAppBehavior(Upgradeforwifi.java:170) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runWifiTestStep(Upgradeforwifi.java:146) ~[test-classes/:?]
+	at Tests.Upgradeforwifi.runTest(Upgradeforwifi.java:114) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
