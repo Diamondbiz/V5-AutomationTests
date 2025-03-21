@@ -1,5 +1,5 @@
 package Tests;
-
+//21.03
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -18,8 +18,8 @@ import java.util.Date;
 
 public class Mytest {
 
-    private AndroidDriver driver; // Instance variable for the driver
-    private WebDriverWait wait;
+    public AndroidDriver driver; // Instance variable for the driver
+    public WebDriverWait wait;
 
     // Define locators (if any are used in this class; otherwise, remove)
     // Example:  public final By hotIconLocator = By.xpath("//android.widget.ImageView[@content-desc=\"HOT Play\"]");
@@ -44,6 +44,7 @@ public class Mytest {
             caps.setCapability("appium:autoLaunch", true);
             caps.setCapability("appium:skipUnlock", true);
             caps.setCapability("appium:disableWindowAnimation", false);
+
             driver = new AndroidDriver(new URL("http://localhost:4724"), caps); // Use the instance variable
             wait = new WebDriverWait(driver, Duration.ofSeconds(30)); // Initialize explicit wait
         } catch (MalformedURLException e) {
@@ -52,21 +53,23 @@ public class Mytest {
     }
 
     @Test
-    public void runWifiConnectivityTest() {
+    public void runTest() {
         String deviceSerial = "GZ2407064N340046"; // Device serial number
         initialize(deviceSerial); // Initialize Appium and set up driver
         try {
             // Start screen recording
             startScreenRecording(deviceSerial);
+
             // Test Header
             System.out.println("=== Wi-Fi Connectivity Test Started ===");
+
             // Sample the Wi-Fi connection before executing any commands
             boolean isWifiConnected = isWifiConnected(deviceSerial);
             if (!isWifiConnected) {
                 System.out.println("[ERROR] The Wi-Fi is disconnected. Stopping the test.");
                 return; // Stop the test if Wi-Fi is not connected
             } else {
-                System.out.println("[INFO] The Wi-Fi is connected. Let's start the test!");
+                System.out.println("[INFO] The Wi-Fi is connected. Let's start the tests!");
             }
 
             // Test Step 1: Disconnect Wi-Fi for 15 seconds
@@ -81,10 +84,11 @@ public class Mytest {
                 countdownTimer(15, "Disconnecting"); // Use the improved countdown timer
             }
 
-            // ... (rest of your test steps, using the improved methods)
+            // Wi-Fi Reconnection
+            System.out.println("\n=== Wi-Fi Reconnection Process Started ===");
             reconnectWifi(deviceSerial);
             waitForWifiReconnection(deviceSerial);
-            if(isWifiConnected(deviceSerial)){
+            if (isWifiConnected(deviceSerial)) {
                 System.out.println("[SUCCESS] Wi-Fi reconnected successfully.");
                 takeScreenshot("After_Reconnect_WiFi_Step1");
             } else {
@@ -93,7 +97,16 @@ public class Mytest {
 
             System.out.println("\n[INFO] Waiting for 10 seconds to stabilize connection...");
             countdownTimer(10, "Stabilizing");
-            System.out.println("[INFO] 10 seconds to next Wi-Fi disconnection.");
+
+            boolean isWifiConnected1 = isWifiConnected(deviceSerial);
+            if (!isWifiConnected1) {
+                System.out.println("[ERROR] The Wi-Fi is disconnected. Stabilization process fail, Stopping the test.");
+                return; // Stop the test if Wi-Fi is not connected
+            } else {
+                System.out.println("[INFO] The Wi-Fi is stabilized and connected. Let's continue!");
+            }
+
+            System.out.println("[INFO] 10 seconds for Test Step 2: 30 seconds Wi-Fi disconnection.");
 
             // Test Step 2: Disconnect Wi-Fi for 30 seconds
             System.out.println("\n=== Test Step 2: Disconnect Wi-Fi for 30 seconds ===");
@@ -106,9 +119,12 @@ public class Mytest {
                 takeScreenshot("Before_Disconnect_WiFi_Step2"); // Dynamic screenshot name
                 countdownTimer(30, "Disconnecting");
             }
+
+            // Wi-Fi Reconnection
+            System.out.println("\n=== Wi-Fi Reconnection Process Started ===");
             reconnectWifi(deviceSerial);
             waitForWifiReconnection(deviceSerial);
-            if(isWifiConnected(deviceSerial)){
+            if (isWifiConnected(deviceSerial)) {
                 System.out.println("[SUCCESS] Wi-Fi reconnected successfully.");
                 takeScreenshot("After_Reconnect_WiFi_Step2");
             } else {
@@ -117,7 +133,16 @@ public class Mytest {
 
             System.out.println("\n[INFO] Waiting for 10 seconds to stabilize connection...");
             countdownTimer(10, "Stabilizing");
-            System.out.println("[INFO] 10 seconds to next Wi-Fi disconnection.");
+
+            boolean isWifiConnected2 = isWifiConnected(deviceSerial);
+            if (!isWifiConnected2) {
+                System.out.println("[ERROR] The Wi-Fi is disconnected. Stabilization process fail, Stopping the test.");
+                return; // Stop the test if Wi-Fi is not connected
+            } else {
+                System.out.println("[INFO] The Wi-Fi is stabilized and connected. Let's continue!");
+            }
+
+            System.out.println("[INFO] 10 seconds for Test Step 3: 35 seconds Wi-Fi disconnection.");
 
             // Test Step 3: Disconnect Wi-Fi for 35 seconds
             System.out.println("\n=== Test Step 3: Disconnect Wi-Fi for 35 seconds ===");
@@ -129,25 +154,28 @@ public class Mytest {
                 takeScreenshot("Before_Disconnect_WiFi_Step3");
                 countdownTimer(35, "Disconnecting");
             }
+
+            // Wi-Fi Reconnection
+            System.out.println("\n=== Wi-Fi Reconnection Process Started ===");
             reconnectWifi(deviceSerial);
             waitForWifiReconnection(deviceSerial); // Wait until Wi-Fi is reconnected
-
             if (isWifiConnected(deviceSerial)) {
                 System.out.println("[SUCCESS] Wi-Fi reconnected successfully.");
                 takeScreenshot("After_Reconnect_WiFi_Step3");
             } else {
                 System.out.println("[ERROR] Wi-Fi connection lost.");
             }
+
             // Wait for 10 seconds to stabilize connection
             System.out.println("\n[INFO] Waiting for 10 seconds to stabilize connection...");
             countdownTimer(10, "Stabilizing");
-            System.out.println("[INFO] 10 seconds till test ends.");
+            System.out.println("[INFO] 10 seconds until the end of the test.");
 
             // Final check
             if (isWifiConnected(deviceSerial)) {
-                System.out.println("\n[SUCCESS] Test completed successfully. Wi-Fi connection is stable.");
+                System.out.println("\n[SUCCESS] Test completed successfully. Wi-Fi connected and stable.");
             } else {
-                System.out.println("\n[ERROR] Test failed. Wi-Fi connection lost.");
+                System.out.println("\n[ERROR] Last step Wi-Fi connection lost, stabilization process failed.");
             }
 
             // Test Footer
@@ -261,7 +289,7 @@ public class Mytest {
     private void stopScreenRecording(String deviceSerial) throws Exception {
 
         //Find the screenrecord process id, and stop the process
-        Process pidProcess = Runtime.getRuntime().exec("adb -s "+ deviceSerial + " shell pgrep -f screenrecord");
+        Process pidProcess = Runtime.getRuntime().exec("adb -s " + deviceSerial + " shell pgrep -f screenrecord");
         BufferedReader reader = new BufferedReader(new InputStreamReader(pidProcess.getInputStream()));
         String pid = reader.readLine();
 
@@ -274,18 +302,17 @@ public class Mytest {
             System.out.println("[INFO] Screen recording stopped.");
 
             //Get the video file name:
-            Process videoNameProcess = Runtime.getRuntime().exec("adb -s "+ deviceSerial + " shell ls -t /sdcard/*.mp4");
+            Process videoNameProcess = Runtime.getRuntime().exec("adb -s " + deviceSerial + " shell ls -t /sdcard/*.mp4");
             BufferedReader videoNameReader = new BufferedReader(new InputStreamReader(videoNameProcess.getInputStream()));
             String videoName = videoNameReader.readLine();
 
 
-            if (videoName != null && !videoName.isEmpty()){
+            if (videoName != null && !videoName.isEmpty()) {
                 // Pull the recorded video to the local machine
                 Process pullProcess = Runtime.getRuntime().exec("adb -s " + deviceSerial + " pull " + videoName + " " + RECORDINGS_PATH + "/");
                 pullProcess.waitFor(); // Crucial: wait for the pull to complete.
                 System.out.println("[INFO] Screen recording saved to " + RECORDINGS_PATH + videoName.substring(videoName.lastIndexOf('/')));
-            }
-            else {
+            } else {
                 System.out.println("[ERROR] No video file found on device.");
             }
 
